@@ -18,3 +18,6 @@ elephant_rgb.jpg:
 
 spreadsheet.png:
 	firefox https://www.dropbox.com/s/7ntdwbgncfbbzl7/Screenshot%202014-02-11%2010.25.04.png
+
+tacos.jpg:
+	wget http://www.divebars2fivestars.com/wp-content/uploads/2013/03/tacos.jpg
