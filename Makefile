@@ -15,3 +15,6 @@ elephant_rgb.jpg:
 
 744px-Pie_chart_EP_election_2004.svg.png:
 	wget https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pie_chart_EP_election_2004.svg/744px-Pie_chart_EP_election_2004.svg.png
+
+spreadsheet.png:
+	firefox https://www.dropbox.com/s/7ntdwbgncfbbzl7/Screenshot%202014-02-11%2010.25.04.png
