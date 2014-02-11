@@ -12,3 +12,6 @@ census-spices:
 elephant_rgb.jpg:
 	# http://svn.apache.org/repos/asf/hadoop/logos/out_rgb/
 	wget http://svn.apache.org/repos/asf/hadoop/logos/out_rgb/elephant_rgb.jpg
+
+744px-Pie_chart_EP_election_2004.svg.png:
+	wget https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pie_chart_EP_election_2004.svg/744px-Pie_chart_EP_election_2004.svg.png
