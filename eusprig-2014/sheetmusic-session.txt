@@ -1,0 +1,122 @@
+>>> import sheetmusic; sheetmusic.init();
+>>> sheetmusic.play('F130:K145')
+>>> sheetmusic.play('F130:K145')
+>>> sheetmusic.play('F130:K145')
+>>> sheetmusic.play('F130:K145')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('F2:H17')
+>>> sheetmusic.play('F2:H17')
+>>> sheetmusic.play('F2:K129')
+>>> sheetmusic.play('F130:K146')
+>>> #sheetmusic.sheetmusic('F130:K146')
+  File "<string>", line 1
+    #sheetmusic.sheetmusic('F130:K146')
+                                      ^
+SyntaxError: unexpected EOF while parsing
+>>> help(sheetmusic.sheetmusic)
+Help on partial object:
+
+class partial(__builtin__.object)
+ |  partial(func, *args, **keywords) - new function with partial application
+ |  of the given arguments and keywords.
+ |  
+ |  Methods defined here:
+ |  
+ |  __call__(...)
+ |      x.__call__(...) <==> x(...)
+ |  
+ |  __delattr__(...)
+ |      x.__delattr__('name') <==> del x.name
+ |  
+ |  __getattribute__(...)
+ |      x.__getattribute__('name') <==> x.name
+ |  
+ |  __reduce__(...)
+ |  
+ |  __setattr__(...)
+ |      x.__setattr__('name', value) <==> x.name = value
+ |  
+ |  __setstate__(...)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |  
+ |  args
+ |      tuple of arguments to future partial calls
+ |  
+ |  func
+ |      function object to use in future partial calls
+ |  
+ |  keywords
+ |      dictionary of keyword arguments to future partial calls
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |  
+ |  __new__ = <built-in method __new__ of type object>
+ |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+
+>>> sheetmusic.sheetmusic('F130:K146', '/tmp/a.png')
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/tlevine/git/sheetmusic/libsheetmusic/console.py", line 58, in sheetmusic
+    left, top, right, bottom = u.parse_range_ref(Gnumeric, range_ref)
+  File "/home/tlevine/git/sheetmusic/libsheetmusic/util.py", line 56, in parse_range_ref
+    sheet_index = int(Gnumeric.functions['sheet'](range_ref)) - 1
+Gnumeric.GnumericError: Missing Evaluation Position.
+>>> sheetmusic.sheetmusic('F130:K146')
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/tlevine/git/sheetmusic/libsheetmusic/console.py", line 58, in sheetmusic
+    left, top, right, bottom = u.parse_range_ref(Gnumeric, range_ref)
+  File "/home/tlevine/git/sheetmusic/libsheetmusic/util.py", line 56, in parse_range_ref
+    sheet_index = int(Gnumeric.functions['sheet'](range_ref)) - 1
+Gnumeric.GnumericError: Missing Evaluation Position.
+>>> sheetmusic.sheetmusic('F130:K146')
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/tlevine/git/sheetmusic/libsheetmusic/console.py", line 58, in sheetmusic
+    left, top, right, bottom = u.parse_range_ref(Gnumeric, range_ref)
+  File "/home/tlevine/git/sheetmusic/libsheetmusic/util.py", line 56, in parse_range_ref
+    sheet_index = int(Gnumeric.functions['sheet'](range_ref)) - 1
+Gnumeric.GnumericError: Missing Evaluation Position.
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A6:C6')
+>>> sheetmusic.play('A6:A9')
+>>> sheetmusic.play('A6:A9')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('F2:H17')
+>>> sheetmusic.play('F2:H17')
+>>> sheetmusic.play('I62:I66')
+>>> sheetmusic.play('I62:I65')
+>>> sheetmusic.play('F62:K97')
+>>> sheetmusic.play('F114:K129')
+>>> sheetmusic.play('F130:K146')
+>>> sheetmusic.play('B3:B3')
+>>> sheetmusic.play('B3:B3')
+>>> sheetmusic.play('B3:B3')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('F2:H17')
+>>> sheetmusic.play('F2:H17')
+>>> sheetmusic.play('F2:H17')
+>>> sheetmusic.play('F34:H49')
+>>> sheetmusic.play('I62:I65')
+>>> sheetmusic.play('F114:K129')
+>>> sheetmusic.play('F130:K146')
+>>> sheetmusic.play('F130:K146')
+>>> sheetmusic.play('F130:K145')
+>>> sheetmusic.play('F130:K145')
+>>> sheetmusic.play('F2:K145')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A2:E7')
+>>> sheetmusic.play('A6:C9')
+>>> sheetmusic.play('A2:E7')
