@@ -21,5 +21,33 @@ Data visualization doesn't have enough bandwidth.
 
 (slide)
 
-To illustrate that, let's take a look at this data table. I want you to tell
-me how many dimensions, or dimensions, this data table has.
+To illustrate that, let's take a look at this data table.
+These data are about rental apartments. Each horizontal row
+in the table is an apartment. The "rowid" is the identification
+number, the "price" is the monthly rental price, and the
+"updated" is the date at which the information was updated.
+We're missing a lot in the "updated" column.
+
+I want you to tell me how many dimensions, or variables, this data table has.
+
+(slide)
+
+You said....
+
+I would say that this data table has three dimensions, one per column.
+It's also appropriate to say that the "rowid" column is really an identifier
+rather than a dimension.
+
+The point here is that the number of dimensions that a dataset has is
+pretty much the same thing as the number of columns that a data table has.
+
+This data table very long and skinny, with only a few dimensions but with
+lots of records. That is, it has only a few vertical columns but has lots of horizontal rows.
+We call this a "voluminous" spreadsheet; it is very simple, but it has
+lots of stuff in it.
+
+(slide)
+
+Compare that to this data table. This one only has five rows, so we only have
+data about five apartments. On the other hand, it has many columns, so we have
+a lot of information about each apartment. We call this a "complex" spreadsheet.
