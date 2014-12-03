@@ -4,4 +4,6 @@ I'm Thomas Levine. I've been working at the intersection of data analytics
 and usability for the past 25 years, and I'm currently the director of product
 at CSV. And as you might guess, I have some strong views on data visualization.
 
-At CSV, we're *frustrated* with data visualization.
+At CSV, we're *frustrated* with data visualization. Data visualization was
+was fine 20 years ago, but it can't handle the enormous scales of big data
+that we have today.
