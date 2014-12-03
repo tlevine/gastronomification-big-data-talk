@@ -123,10 +123,47 @@ a music video paradigm.
 (slide)
 
 One of our earlier projects was this video about the finances of the United
-States federal government....
+States federal government. I have linked to the video in the "attachments"
+section, and this next slide has other directions in case that doesn't work
+for whatever reason.
 
-By adding sound, we were able to communicate very complex data.
+The video....
+
+As you see and hear, by adding sound, we were able to communicate very complex data.
 
 (slide)
 
+We wrote this video in R. We think R is a really good tool for making data
+music videos....
 
+(slide)
+
+Our R-based data music product is called data-driven rhythms. We find it to
+be very intuitive for people who are used to working with R. For those who
+know R, this is a sample of how we use the package....
+
+(slide)
+
+Unfortunately, most people don't know R.
+Data-driven rhythms is a great tool for data scientists, but we can't expect
+everyone to become a data scientist overnight.
+On the other hand, everyone knows how to use spreadsheets.
+Our more popular data music product is called "sheetmusic"; it lets you compose
+data-driven music inside of a spreadsheet. Let's see how that works.
+
+This spreadsheet contains some cells with codes in them and an image of some
+sheetmusic. The sheetmusic was actually generated from the data.
+
+(slide)
+
+Here we can see how the spreadsheet corresponds to the sheet music....
+
+(slide)
+
+Sheetmusic is a full-fleged music synthesizer that lets you compose music
+with spreadsheet functions. Afterwards, you can play the music, export it
+as a sound file, or print it as sheetmusic.
+
+(slide)
+
+Now I'll show you how one of our clients uses sheetmusic.
