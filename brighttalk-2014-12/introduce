@@ -81,3 +81,34 @@ this well.
 
 I propose that we don't need to reduce the complexity. Instead, we just need
 to put more dimensions into our plots. Let me show you what I mean by that.
+
+I'm going to do another vote. Please tell me how many dimensions are in this
+scatterplot. I'll tell you what the plot is about after we do the vote.
+
+(slide)
+
+This plot has three dimensions....
+
+Now, let's think about how this plot scales with big data.
+If we have voluminous data, we just need to add more dots. That's easy.
+But what do we do if we have complex data, with more than a few variables?
+Maybe we could change the style of dot or add lines, but that would only
+give us a couple more dimensions; there's no way that we'll fit 100 dimensions,
+or even just 20 dimensions on here.
+
+(slide)
+
+So what do people do today about the big data problem?
+It usually falls into one of these two groups.
+In most companies, the data just goes to waste because the organization
+doesn't have the tools to work with such complex data.
+If a company does manage to take advantage of the data, it's only because they
+had a very important question that was worth throwing lots of people and money at.
+
+(slide)
+
+But we do things a bit differently.
+
+(slide)
+
+Let's go back to this slide from earlier.
