@@ -51,3 +51,14 @@ lots of stuff in it.
 Compare that to this data table. This one only has five rows, so we only have
 data about five apartments. On the other hand, it has many columns, so we have
 a lot of information about each apartment. We call this a "complex" spreadsheet.
+
+(slide)
+
+What happens when we have a spreadsheet that is both voluminous and complex?
+That's a big spreadsheet. The challenge with today's big data is that it is
+both high-volume and high-complexity.
+
+(slide)
+
+It is absolutely impossible for anyone to understand a big dataset. In order
+to understand it, we have to reduce its volume, simplify it, and work in a team.
