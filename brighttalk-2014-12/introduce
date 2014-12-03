@@ -62,3 +62,22 @@ both high-volume and high-complexity.
 
 It is absolutely impossible for anyone to understand a big dataset. In order
 to understand it, we have to reduce its volume, simplify it, and work in a team.
+
+(slide)
+
+Reducing the data volume is relatively easy.
+We reduce the data volume with aggregations, or statistics, like means, medians,
+counts, and so on. Smart people pick this up pretty quickly.
+
+(slide)
+
+Reducing the complexity is hard. We need to use advanced modeling techniques
+to for this, and you have to be careful about choosing the correct model.
+There's a lot of new technology that is starting to make this a bit easier,
+but you basically need to be a data scientist or statistician in order to do
+this well.
+
+(slide)
+
+I propose that we don't need to reduce the complexity. Instead, we just need
+to put more dimensions into our plots. Let me show you what I mean by that.
